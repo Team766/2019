@@ -1,0 +1,13 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "files.exclude": {
+    "**/sweeppy": true,
+    "**/dist": true,
+    "**/sweeppy.egg-info": true,
+    "**/.classpath": false,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/bin": true
+  }
+}
