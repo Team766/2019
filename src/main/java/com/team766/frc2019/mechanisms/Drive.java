@@ -125,11 +125,11 @@ public class Drive extends Mechanism  implements DriveI {
     }
 
     public boolean isEnabled() {
-        return(DriverStation.getInstance().isEnabled());
+        return(DriverStation.isEnabled());
     }
 
     public boolean isAutonomous() {
-        return(DriverStation.getInstance().isAutonomous());
+        return(DriverStation.isAutonomous());
     }
 
     public double getGyroAngle() {
